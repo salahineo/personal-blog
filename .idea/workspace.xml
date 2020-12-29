@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49d9a5f6-dc6f-4464-b62f-fd5b6fc922d7" name="Default Changelist" comment="" />
+    <list default="true" id="49d9a5f6-dc6f-4464-b62f-fd5b6fc922d7" name="Default Changelist" comment="Front-End Files Structure">
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/images/post-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,14 +34,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mKqqsIJkCeALsuziLzkbE0dRAC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
@@ -48,11 +64,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609252825560</updated>
-      <workItem from="1609252828658" duration="1565000" />
+      <workItem from="1609252828658" duration="18087000" />
     </task>
+    <task id="LOCAL-00001" summary="Front-End Files Structure">
+      <created>1609254520740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254520740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Front-End Files Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front-End Files Structure" />
   </component>
 </project>

@@ -1,1 +1,171 @@
-/* */
+/* Start Global */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* End Global */
+
+/* Start Navbar */
+
+nav {
+  font-weight: 600;
+}
+
+nav .navbar-toggler:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  nav .navbar-collapse {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid;
+  }
+}
+
+/* End Navbar */
+
+/* Start Content */
+
+.content {
+  margin: 50px 0;
+}
+
+.content .post {
+  margin-bottom: 40px;
+}
+
+.content .post .post-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+}
+
+.content .post .post-details {
+  border: 1px solid #e0e0e0;
+  padding: 25px 10px 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 0.3s;
+}
+
+.content .post:hover .post-img {
+  box-shadow: 1px -3px 15px 1px #cfcfcf;
+}
+
+.content .post:hover .post-details {
+  box-shadow: 1px 1px 15px 1px #cfcfcf;
+}
+
+.content .post .post-details .post-meta {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.content .post .post-details .post-meta i {
+  margin: 5px;
+}
+
+.content .post .post-details .post-meta .date {
+  margin-left: 15px;
+}
+
+
+.content .post .post-details .post-title {
+  padding: 0 0 10px;
+}
+
+.content .post .post-details .post-title h4 {
+  margin: 0;
+}
+
+.content .post .post-details .post-title h4 a {
+  color: #121416;
+  transition: 0.25s;
+}
+
+.content .post .post-details .post-title h4 a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .post .post-details .post-content p {
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+/* End Content */
+
+/* Start Sidebar */
+
+.content .sidebar-item {
+  margin-bottom: 50px;
+}
+
+.content .sidebar-item .list-group .list-group-item.active {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content .sidebar-item .list-group .list-group-item.active i {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.content .sidebar-item .list-group .list-group-item a {
+  color: #121416;
+  display: block;
+  transition: 0.25s;
+}
+
+.content .sidebar-item .list-group .list-group-item a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .categories .list-group .list-group-item a i {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.content .latest-posts .list-group .list-group-item a:hover img {
+  transition: 0.25s;
+}
+
+.content .latest-posts .list-group .list-group-item a:hover img {
+  box-shadow: 1px 1px 15px 1px #cfcfcf;
+}
+
+/* End Sidebar */
+
+/* Start Footer */
+
+footer {
+  direction: ltr;
+  font-family: Arial, sans-serif;
+  padding: 10px 0;
+}
+
+footer .copyright {
+  font-weight: 700;
+}
+
+footer .links a {
+  color: #fff;
+  transition: 0.25s;
+  margin: 0 5px;
+}
+
+footer .links a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* End Footer */
