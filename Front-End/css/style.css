@@ -85,6 +85,7 @@ nav .navbar-toggler:focus {
 
 .content .post .post-details .post-title h4 {
   margin: 0;
+  line-height: 1.6;
 }
 
 .content .post .post-details .post-title h4 a {
