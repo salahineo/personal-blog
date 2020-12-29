@@ -37,14 +37,15 @@ nav .navbar-toggler:focus {
 }
 
 .content .post {
-  margin-bottom: 40px;
+  max-width: 397px;
+  margin: 0 auto 40px;
 }
 
 .content .post .post-img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   overflow: hidden;
-  position: relative;
+  max-height: 199px;
   transition: 0.3s;
 }
 
