@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <!-- Start Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mohamed Salah">
+  <meta name="description" content="تدويناتي هي مدونة خاصة بشخص واحد فقط لكي ينشر بها مقالاته او اعماله">
+  <meta name="keywords" content="مدونة, مدونة خاصة, تدويناتي, المدونة, مدونتي">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- End Meta -->
+
+  <!-- Start Title -->
+  <title>تدويناتي - لوحة التحكم</title>
+  <!-- End Title -->
+
+  <!-- Start CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <link rel="stylesheet" href="../fonts/css/fontawesome.min.css">
+  <!-- End CSS -->
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="../images/blog.png">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+  <!-- Start Content -->
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Start Menu Links -->
+        <div class="col-lg-3 menu-links">
+          <div class="admin">
+            <img class="img-fluid rounded-circle" src="../images/admin.jpg" alt="Admin Photo">
+          </div>
+          <h4 class="text-center font-weight-bold mb-4">
+            <a href="#">لوحة التحكم</a>
+          </h4>
+          <ul>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-user"></i></span>
+                <span class="link">الملف الشخصي</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-tag"></i></span>
+                <span class="link">التصنيفات</span>
+              </a>
+            </li>
+            <li data-toggle="collapse" data-target="#menu">
+              <a href="#">
+                <span class="ico"><i class="fas fa-pencil-alt"></i></span>
+                <span class="link">المقالات</span>
+              </a>
+            </li>
+            <ul class="collapse" id="menu">
+              <li>
+                <a href="#">
+                  <span class="ico"><i class="fas fa-edit"></i></span>
+                  <span class="link">مقال جديد</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="ico"><i class="fas fa-th-large"></i></span>
+                  <span class="link">كل المقالات</span>
+                </a>
+              </li>
+            </ul>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-comment-alt"></i></span>
+                <span class="link">الرسائل</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-globe"></i></span>
+                <span class="link">عرض الموقع</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-sign-out-alt"></i></span>
+                <span class="link">تسجيل الخروج</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Menu Links -->
+        <!-- Start Menu Content -->
+        <div class="col-lg-9 menu-content categories">
+          <form action="#">
+            <label for="category">تصنيف جديد</label>
+            <input type="text" class="form-control" id="category" name="category">
+            <input type="submit" class="d-block btn btn-primary mt-3" value="اضافة التصنيف">
+          </form>
+          <h3>جميع التصنيفات</h3>
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <thead class="thead-dark">
+                <tr>
+                  <th>#</th>
+                  <th>التصنيف</th>
+                  <th>تاريخ الاضافة</th>
+                  <th>عدد المقالات</th>
+                  <th>الاجراء</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>شروحات</td>
+                  <td>20-12-2020</td>
+                  <td>10</td>
+                  <td>
+                    <a class="text-dark" href="#"><i class="fas fa-edit"></i></a>
+                    <a class="text-dark" href="#"><i class="mr-3 fas fa-trash-alt"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>مشاريع</td>
+                  <td>22-12-2020</td>
+                  <td>12</td>
+                  <td>
+                    <a class="text-dark" href="#"><i class="fas fa-edit"></i></a>
+                    <a class="text-dark" href="#"><i class="mr-3 fas fa-trash-alt"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>ادوات</td>
+                  <td>24-12-2020</td>
+                  <td>5</td>
+                  <td>
+                    <a class="text-dark" href="#"><i class="fas fa-edit"></i></a>
+                    <a class="text-dark" href="#"><i class="mr-3 fas fa-trash-alt"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Pagination -->
+          <ul class="pagination d-flex justify-content-center mt-5">
+            <li class="page-item"><a class="page-link" href="#">السابق</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">التالي</a></li>
+          </ul>
+        </div>
+        <!-- End Menu Content -->
+      </div>
+    </div>
+
+  </div>
+  <!-- End Content -->
+
+  <!-- Start JS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+  <!-- End JS -->
+</body>
+</html>

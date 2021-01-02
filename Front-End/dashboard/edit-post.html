@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <!-- Start Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mohamed Salah">
+  <meta name="description" content="تدويناتي هي مدونة خاصة بشخص واحد فقط لكي ينشر بها مقالاته او اعماله">
+  <meta name="keywords" content="مدونة, مدونة خاصة, تدويناتي, المدونة, مدونتي">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- End Meta -->
+
+  <!-- Start Title -->
+  <title>تدويناتي - لوحة التحكم</title>
+  <!-- End Title -->
+
+  <!-- Start CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <link rel="stylesheet" href="../fonts/css/fontawesome.min.css">
+  <!-- End CSS -->
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="../images/blog.png">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+  <!-- Start Content -->
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Start Menu Links -->
+        <div class="col-lg-3 menu-links">
+          <div class="admin">
+            <img class="img-fluid rounded-circle" src="../images/admin.jpg" alt="Admin Photo">
+          </div>
+          <h4 class="text-center font-weight-bold mb-4">
+            <a href="#">لوحة التحكم</a>
+          </h4>
+          <ul>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-user"></i></span>
+                <span class="link">الملف الشخصي</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-tag"></i></span>
+                <span class="link">التصنيفات</span>
+              </a>
+            </li>
+            <li data-toggle="collapse" data-target="#menu">
+              <a href="#">
+                <span class="ico"><i class="fas fa-pencil-alt"></i></span>
+                <span class="link">المقالات</span>
+              </a>
+            </li>
+            <ul class="collapse" id="menu">
+              <li>
+                <a href="#">
+                  <span class="ico"><i class="fas fa-edit"></i></span>
+                  <span class="link">مقال جديد</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="ico"><i class="fas fa-th-large"></i></span>
+                  <span class="link">كل المقالات</span>
+                </a>
+              </li>
+            </ul>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-comment-alt"></i></span>
+                <span class="link">الرسائل</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-globe"></i></span>
+                <span class="link">عرض الموقع</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico"><i class="fas fa-sign-out-alt"></i></span>
+                <span class="link">تسجيل الخروج</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Menu Links -->
+        <!-- Start Menu Content -->
+        <div class="col-lg-9 menu-content edit-post">
+          <form action="#">
+            <div class="form-group">
+              <label for="post-name">عنوان المقال</label>
+              <input class="form-control" type="text" id="post-name" name="post-name" value="كيف تصبح مطور ويب">
+            </div>
+            <div class="form-group">
+              <div class="current-image">
+                <span>الصورة الحالية</span>
+                <img class="img-fluid" src="../images/post-1.jpg" alt="Post Image">
+              </div>
+              <label for="post-image">صورة المقال</label>
+              <input class="form-control" type="file" id="post-image" name="post-image">
+            </div>
+            <div class="form-group">
+              <label for="post-category">التصنيف</label>
+              <select class="form-control" name="post-category" id="post-category">
+                <option value="#" selected>شروحات</option>
+                <option value="#">مشاريع</option>
+                <option value="#">ادوات</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="post-text">نص المقال</label>
+              <textarea class="form-control" id="post-text" name="post-text" rows="10">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
+هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</textarea>
+            </div>
+            <input type="submit" class="btn btn-primary" value="تعديل المقال">
+          </form>
+        </div>
+        <!-- End Menu Content -->
+      </div>
+    </div>
+
+  </div>
+  <!-- End Content -->
+
+  <!-- Start JS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+  <!-- End JS -->
+</body>
+</html>

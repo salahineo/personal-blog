@@ -1,0 +1,258 @@
+/* Start Global */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* End Global */
+
+/* Start Menu Links */
+
+.content .menu-links {
+  padding: 30px;
+  background-color: #1b1e21;
+}
+
+@media (min-width: 992px) {
+  .content .menu-links {
+    min-height: 100vh;
+    max-width: 310px !important;
+  }
+}
+
+.content .menu-links .admin {
+  width: 120px;
+  margin: 0 auto 40px;
+}
+
+.content .menu-links h4 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.content .menu-links h4 a {
+  color: #fff;
+  transition: 0.25s;
+}
+
+.content .menu-links h4 a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .menu-links ul {
+  list-style-type: none;
+}
+
+.content .menu-links ul,
+.content .menu-links li {
+  padding: 0;
+  margin: 0;
+}
+
+.content .menu-links li {
+  padding: 10px 15px;
+  transition: 0.2s;
+}
+
+.content .menu-links li:hover {
+  background-color: #333;
+}
+
+.content .menu-links li a {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+}
+
+.content .menu-links li:hover a {
+  text-decoration: none;
+}
+
+.content .menu-links li a i {
+  margin-left: 15px;
+  color: #007bff;
+}
+
+.content .menu-links .collapse {
+  margin-right: 30px;
+}
+
+/* End Menu Links */
+
+/* Start Menu Content */
+
+.content .menu-content {
+  padding: 30px;
+}
+
+.content .menu-content .stats {
+  margin-bottom: 50px;
+}
+
+.content .menu-content h3 {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.content .menu-content.main .content {
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.content .menu-content.main .posts .content {
+  background: linear-gradient(45deg, #1ebccd, #3a55b1);
+}
+
+.content .menu-content.main .categories .content {
+  background: linear-gradient(45deg, #f83f37, #ab26aa);
+}
+
+.content .menu-content.main .messages .content {
+  background: linear-gradient(45deg, #ffbf36, #ff6028);
+}
+
+.content .menu-content.main .content span,
+.content .menu-content.main .content h2 {
+  font-weight: bold;
+}
+
+.content .menu-content.main .content i {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  font-size: 40px;
+}
+
+.content .menu-content.categories form {
+  margin-bottom: 50px;
+}
+
+.content .menu-content.categories form label,
+.content .menu-content.new-post form label {
+  font-size: 18px;
+}
+
+.content .menu-content.all-posts table tr td:nth-of-type(2),
+.content .menu-content.main .latest-posts table tr td:nth-of-type(2) {
+  min-width: 270px;
+}
+
+.content .menu-content.all-posts table tr td:nth-of-type(4),
+.content .menu-content.main .latest-posts table tr td:nth-of-type(4) {
+  min-width: 100px;
+}
+
+.content .menu-content.all-posts table tr td:nth-of-type(5),
+.content .menu-content.main .latest-posts table tr td:nth-of-type(5) {
+  min-width: 130px;
+}
+
+.content .menu-content.all-posts table tr td:nth-of-type(6),
+.content .menu-content.main .latest-posts table tr td:nth-of-type(6) {
+  min-width: 105px;
+}
+
+.content .menu-content.categories table tr td:nth-of-type(2) {
+  min-width: 160px;
+}
+
+.content .menu-content.categories table tr td:nth-of-type(3) {
+  min-width: 150px;
+}
+
+.content .menu-content.categories table tr td:nth-of-type(4) {
+  min-width: 90px;
+}
+
+.content .menu-content.categories table tr td:nth-of-type(5) {
+  min-width: 100px;
+}
+
+.content .menu-content.messages table tr td:nth-of-type(2) {
+  min-width: 160px;
+}
+
+.content .menu-content.messages table tr td:nth-of-type(3) {
+  min-width: 150px;
+}
+
+.content .menu-content.messages table tr td:nth-of-type(4) {
+  min-width: 300px;
+}
+
+.content .menu-content.messages table tr td:nth-of-type(5) {
+  min-width: 120px;
+}
+
+.content .menu-content.categories table a,
+.content .menu-content.all-posts table a,
+.content .menu-content.messages table a,
+.content .menu-content.main table a {
+  transition: 0.25s;
+}
+
+.content .menu-content.categories table a:hover,
+.content .menu-content.all-posts table a:hover,
+.content .menu-content.messages table a:hover,
+.content .menu-content.main table a:hover {
+  color: #007bff !important;
+}
+
+.content .menu-content.all-posts table th,
+.content .menu-content.all-posts table td,
+.content .menu-content.main table th,
+.content .menu-content.main table td {
+  text-align: center;
+}
+
+.content .menu-content.all-posts table td.img,
+.content .menu-content.main table td.img {
+  min-width: 150px !important;
+}
+
+.content .menu-content.all-posts table img,
+.content .menu-content.main table img {
+  width: 110px;
+}
+
+.content .menu-content.new-post form input[type='file'],
+.content .menu-content.edit-post form input[type='file'],
+.content .menu-content.profile form input[type='file'] {
+  min-height: 45px;
+}
+
+.content .menu-content.edit-post form .current-image {
+  margin-bottom: 15px;
+  width: 400px;
+  font-size: 18px;
+}
+
+.content .menu-content.profile form .current-image {
+  margin-bottom: 15px;
+  width: 150px;
+  font-size: 18px;
+}
+
+.content .menu-content.edit-post form .current-image span,
+.content .menu-content.profile form .current-image span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.content .menu-content.new-post form textarea,
+.content .menu-content.edit-post form textarea {
+  resize: none;
+}
+
+/* End Menu Content */
