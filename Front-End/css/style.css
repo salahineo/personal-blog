@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Cairo', sans-serif;
+  background-color: #f0f0f0;
 }
 
 /* End Global */
@@ -28,6 +29,10 @@ nav .navbar-toggler:focus {
   }
 }
 
+nav .navbar-nav .nav-item .nav-link {
+  transition: 0.25s;
+}
+
 /* End Navbar */
 
 /* Start Content */
@@ -37,7 +42,7 @@ nav .navbar-toggler:focus {
 }
 
 .content .post {
-  max-width: 397px;
+  max-width: 430px;
   margin: 0 auto 40px;
 }
 
@@ -58,11 +63,11 @@ nav .navbar-toggler:focus {
 }
 
 .content .post:hover .post-img {
-  box-shadow: 1px -3px 15px 1px #cfcfcf;
+  box-shadow: 1px -3px 17px 3px #cfcfcf;
 }
 
 .content .post:hover .post-details {
-  box-shadow: 1px 1px 15px 1px #cfcfcf;
+  box-shadow: 1px 1px 20px 3px #cfcfcf;
 }
 
 .content .post .post-details .post-meta {
@@ -103,7 +108,46 @@ nav .navbar-toggler:focus {
   margin: 0 0 20px;
 }
 
+.content .alert strong {
+  margin-right: 15px;
+}
+
 /* End Content */
+
+/* Start Single Post */
+
+.content .single-post .post-details {
+  border: 1px solid #e0e0e0;
+  padding: 25px 10px 15px;
+}
+
+.content .single-post .post-details {
+  padding-top: 30px;
+}
+
+.content .single-post .post-details .post-meta {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.content .single-post .post-details .post-meta i {
+  margin: 5px;
+}
+
+.content .single-post .post-details .post-meta .date {
+  margin-left: 15px;
+}
+
+.content .single-post .post-details .post-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.content .single-post .post-details .post-content p {
+  line-height: 2;
+}
+
+/* End Single Post */
 
 /* Start Sidebar */
 
@@ -132,9 +176,9 @@ nav .navbar-toggler:focus {
   text-decoration: none;
 }
 
-.content .categories .list-group .list-group-item a i {
-  margin-left: 5px;
-  font-size: 14px;
+.content .sidebar-item.search input {
+  width: 160px;
+  margin-left: 8px;
 }
 
 .content .latest-posts .list-group .list-group-item a:hover img {
@@ -143,6 +187,11 @@ nav .navbar-toggler:focus {
 
 .content .latest-posts .list-group .list-group-item a:hover img {
   box-shadow: 1px 1px 15px 1px #cfcfcf;
+}
+
+.content .categories .list-group .list-group-item a i {
+  margin-left: 5px;
+  font-size: 14px;
 }
 
 /* End Sidebar */
