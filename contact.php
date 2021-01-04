@@ -9,12 +9,6 @@ include 'include/header.php';
 // Include Navbar
 include 'include/navbar.php';
 
-// Check Session
-if(!isset($_SESSION['admin'])) {
-  header('Location: index.php');
-  exit();
-}
-
 // Check If There Is A POST Request
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
   // Get Post Variable

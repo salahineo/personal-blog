@@ -9,12 +9,6 @@ include 'include/header.php';
 // Include Navbar
 include 'include/navbar.php';
 
-// Check Session
-if(!isset($_SESSION['admin'])) {
-  header('Location: index.php');
-  exit();
-}
-
 ?>
 
 <!-- Start Content -->

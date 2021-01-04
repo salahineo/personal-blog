@@ -23,7 +23,16 @@
           </li>
           <?php
         }
+        // Check Session
+        if(isset($_SESSION['admin'])) {
+          ?>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard/dashboard.php">لوحة التحكم</a>
+          </li
+          <?php
+        }
         ?>
+
         <li class="nav-item">
           <a class="nav-link" href="contact.php">تواصل معنا</a>
         </li>

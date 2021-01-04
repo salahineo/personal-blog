@@ -56,6 +56,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $image_extension_array = explode('.', $image_name);
     $image_extension = strtolower(end($image_extension_array));
     $randomImageName = rand(0, 100000000) . '.' . $image_extension;
+    // Remove Old Image In Case Of New Image Uploaded Successfully
+    unlink(realpath(dirname(getcwd())) . "/images/posts/" . $row['post_picture']);
   }
 
   // Check For Input Data
@@ -83,9 +85,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bindParam(':postContent', $postContent);
     $stmt->bindParam(':postPicture', $randomImageName);
     $stmt->execute();
-
-    // Remove Old Image In Case Of New Image Uploaded Successfully
-    unlink(realpath(dirname(getcwd())) . "/images/posts/" . $row['post_picture']);
 
     // Return To Posts Page
     header('Location: posts.php');
