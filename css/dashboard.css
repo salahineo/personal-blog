@@ -154,6 +154,10 @@ body {
   font-size: 18px;
 }
 
+table tr td {
+  background-color: #fff;
+}
+
 .content .menu-content.all-posts table tr td:nth-of-type(2),
 .content .menu-content.main .latest-posts table tr td:nth-of-type(2) {
   min-width: 270px;
@@ -239,6 +243,8 @@ body {
 
 .content .menu-content.new-post form input[type='file'],
 .content .menu-content.edit-post form input[type='file'],
+.content .menu-content.new-post form select,
+.content .menu-content.edit-post form select,
 .content .menu-content.profile form input[type='file'] {
   min-height: 45px;
 }
@@ -266,4 +272,23 @@ body {
   resize: none;
 }
 
+.content form .form-group.password {
+  position: relative;
+}
+
+.content form .form-group.password i {
+  position: absolute;
+  top: 43px;
+  left: 15px;
+  cursor: pointer;
+}
+
 /* End Menu Content */
+
+/* Start Pagination */
+
+.pagination .page-item.disabled {
+  cursor: not-allowed;
+}
+
+/* End Pagination */
