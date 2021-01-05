@@ -42,13 +42,13 @@ Here are the guidelines to run this project on your localhost:
 5. Open your browser, and type `http://localhost/phpmyadmin`, to open PHPMyAdmin home page
 6. Create a new database with the name `personal_blog`
 7. Import the `personal_blog.sql` file to this database (This file located in `sql` folder which exist in the `personal_blog` folder)
-5. Open your browser, and type `http://localhost/pdfbooks`, to open the main page of the website
-6. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
+5. Open your browser, and type `http://localhost/personal-blog`, to open the main page of the website
+6. Navigate to `http://localhost/personal-blog/dashboard`, to open admin dashboard of the website
 
 
 ### Credentials
 
-If you navigate to `http://localhost/pdfbooks/dashboard`, you will be asked for username, and password. Use the credentials below:
+If you navigate to `http://localhost/personal-blog/dashboard`, you will be asked for username, and password. Use the credentials below:
 
 - Username: `admin`
 - Password: `admin`
