@@ -1,4 +1,4 @@
-<h1 align="center">Arabic Personal Blog</h1>
+<h1 align="center">Personal Arabic Blog</h1>
 
 <p align="center">
 <img src="Mockup.jpg" alt="Responsive Mockup">
