@@ -33,7 +33,7 @@ if(empty($_GET['search'])) {
           // Set Current Page Variable
           isset($_GET['page']) ? $page = $_GET['page'] : $page = 1;
           // Start & Limit Of Retrieved Date
-          $limit = 6;
+          $limit = 4;
           $start = ($page - 1) * $limit;
           // Get Total Pages
           $query = 'SELECT * FROM posts WHERE post_title LIKE :search OR post_content LIKE :search';

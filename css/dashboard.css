@@ -30,9 +30,9 @@ body {
   margin: 0 auto 40px;
 }
 
-.content .menu-links h4 {
-  padding-bottom: 15px;
+.content .menu-links .responsive-collapse {
   border-bottom: 1px solid #444;
+  padding-bottom: 15px;
 }
 
 .content .menu-links h4 a {
@@ -43,6 +43,14 @@ body {
 .content .menu-links h4 a:hover {
   color: #007bff;
   text-decoration: none;
+}
+
+.content .menu-links .responsive-collapse i {
+  font-size: 22px;
+}
+
+.content .menu-links .collapse {
+  margin-right: 0 !important;
 }
 
 .content .menu-links ul {

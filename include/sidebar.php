@@ -50,7 +50,7 @@
     </li>
     <?php
     // Fetch Categories
-    $stmt = $db->query('SELECT category_name FROM categories ORDER BY category_id DESC');
+    $stmt = $db->query('SELECT category_name FROM categories ORDER BY category_id');
     while($row = $stmt->fetch()) {
       ?>
       <li class="list-group-item">

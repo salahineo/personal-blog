@@ -10,10 +10,13 @@ $row = $stmt->fetch();
   <div class="admin">
     <img class="img-fluid rounded-circle" src="../images/admin/<?php echo $row['admin_picture']; ?>" alt="Admin Photo">
   </div>
-  <h4 class="text-center font-weight-bold mb-4">
-    <a href="dashboard.php">لوحة التحكم</a>
-  </h4>
-  <ul>
+  <div class="responsive-collapse d-flex align-items-center justify-content-between justify-content-lg-center">
+    <h4 class="text-center font-weight-bold">
+      <a href="dashboard.php">لوحة التحكم</a>
+    </h4>
+    <i class="fas fa-bars d-block d-lg-none text-light" data-toggle="collapse" data-target="#adminNavLinks"></i>
+  </div>
+  <ul class="mt-4" id="adminNavLinks">
     <li>
       <a href="profile.php">
         <span class="ico"><i class="fas fa-user"></i></span>

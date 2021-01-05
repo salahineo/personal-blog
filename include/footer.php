@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row d-flex flex-column flex-md-row align-items-center">
       <div class="copyright col-md-6 mb-2 mb-md-0 text-center text-md-right">
-        &copy; 2020 | <span class="text-primary">Mohamed Salah</span>
+        &copy; 2020 | <span class="text-primary font-weight-bold">Mohamed Salah</span>
       </div>
       <div class="links col-md-6 text-center text-md-left">
         <a href="https://github.com/salahineo" target="_blank">

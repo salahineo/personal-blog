@@ -31,7 +31,7 @@ if(isset($_GET['id'])) {
   $stmt->execute();
 
   // Return To Categories Page Without Parameters
-  header("Location: dashboard.php");
+  header("Location: posts.php");
   exit();
 }
 
