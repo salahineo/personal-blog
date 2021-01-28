@@ -51,7 +51,7 @@ INSERT INTO `admin` (`admin_id`, `admin_username`, `admin_email`, `admin_passwor
 CREATE TABLE `categories` (
   `category_id` int(11) NOT NULL,
   `category_name` varchar(100) NOT NULL,
-  `category_date` date NOT NULL DEFAULT current_timestamp()
+  `category_date` DATETIME NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -74,7 +74,7 @@ CREATE TABLE `messages` (
   `sender_name` varchar(100) NOT NULL,
   `sender_email` varchar(100) NOT NULL,
   `message_content` varchar(2000) NOT NULL,
-  `message_date` date NOT NULL DEFAULT current_timestamp()
+  `message_date` DATETIME NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -99,7 +99,7 @@ CREATE TABLE `posts` (
   `post_category` varchar(100) NOT NULL,
   `post_content` varchar(5000) NOT NULL,
   `post_picture` varchar(100) NOT NULL,
-  `post_date` date NOT NULL DEFAULT current_timestamp()
+  `post_date` DATETIME NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --

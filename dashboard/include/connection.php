@@ -1,8 +1,8 @@
 <?php
 // Database Connection Parameters
-$dsn = 'mysql:host=localhost;dbname=personal_blog';
+$dsn = 'mysql:host=localhost;dbname=s_personal_blog';
 $user = 'root';
-$pass = '';
+$pass = 'admin';
 
 // PDO Options
 $options = array(
