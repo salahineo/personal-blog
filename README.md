@@ -2,7 +2,6 @@
 
 <p align="center">
 <img src="Mockup.jpg" alt="Responsive Mockup">
-<img src="Mockup-Dashboard.jpg" alt="Responsive Dashboard Mockup">
 </p>
 
 ## Table of Contents
