@@ -40,7 +40,7 @@ if(!isset($_GET['id'])) {
         <div class="post-details border-top-0 bg-white">
           <div class="post-meta text-secondary text-center">
             <i class="far fa-calendar-alt"></i>
-            <span class="date"><?php echo $row['post_date']; ?></span>
+            <span class="date"><?php echo explode(' ', $row['post_date'])[0];; ?></span>
             <i class="fas fa-tags"></i>
             <span class="tag"><?php echo $row['post_category']; ?></span>
           </div>

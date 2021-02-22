@@ -82,7 +82,7 @@ if(isset($_GET['id'])) {
                   <td><img class="img-fluid" src="../images/posts/<?php echo $row['post_picture']; ?>" alt="Post Image">
                   </td>
                   <td><?php echo $row['post_category']; ?></td>
-                  <td><?php echo $row['post_date']; ?></td>
+                  <td><?php echo explode(' ', $row['post_date'])[0];; ?></td>
                   <td>
                     <a href="edit-post.php?id=<?php echo $row['post_id']; ?>" class="text-dark">
                       <i class="fas fa-edit"></i>

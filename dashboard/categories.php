@@ -106,7 +106,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <tr>
                   <td><?php echo $categoryVirtualID += 1; ?></td>
                   <td><?php echo $row['category_name']; ?></td>
-                  <td><?php echo $row['category_date']; ?></td>
+                  <td><?php echo explode(' ', $row['category_date'])[0];; ?></td>
                   <td><?php echo $postsCount; ?></td>
                   <td>
                     <a href="edit-category.php?id=<?php echo $row['category_id']; ?>" class="text-dark">

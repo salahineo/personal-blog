@@ -71,7 +71,7 @@ if(isset($_GET['id'])) {
                   <td><?php echo $row['sender_name']; ?></td>
                   <td><?php echo $row['sender_email']; ?></td>
                   <td><?php echo $row['message_content']; ?></td>
-                  <td><?php echo $row['message_date']; ?></td>
+                  <td><?php echo explode(' ', $row['message_date'])[0];; ?></td>
                   <td>
                     <a href="?id=<?php echo $row['message_id']; ?>" class="text-dark delete-btn">
                       <i class="mr-3 fas fa-trash-alt"></i>
